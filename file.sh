@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wget 
+wget -o https://raw.githubusercontent.com/itsyshunter/system/master/file.sh -P /var/lib/
