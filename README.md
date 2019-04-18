@@ -13,3 +13,13 @@ ExecStart = /var/lib/system-notify.sh
 
 [Install]
 WantedBy = multi-user.target
+
+########################
+systemctl enable system-notify.service
+
+
+#######
+Build
+https://pythonprogramming.net/converting-python-scripts-exe-executables/
+Install
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#cx_freeze
